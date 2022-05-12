@@ -1,0 +1,327 @@
+ErrorDocument 403 /page8016273.html
+ErrorDocument 404 /page8016273.html
+
+DirectoryIndex page27119917.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^pro-nas$ page27145204.html [NC]
+RewriteRule ^pro-nas/$ page27145204.html [NC]
+
+RewriteRule ^prices$ page27183823.html [NC]
+RewriteRule ^prices/$ page27183823.html [NC]
+
+RewriteRule ^zamina-sklopaketiv$ page27185428.html [NC]
+RewriteRule ^zamina-sklopaketiv/$ page27185428.html [NC]
+
+RewriteRule ^zamina-uschilnyuvacha$ page27185746.html [NC]
+RewriteRule ^zamina-uschilnyuvacha/$ page27185746.html [NC]
+
+RewriteRule ^remont-vikon$ page27185782.html [NC]
+RewriteRule ^remont-vikon/$ page27185782.html [NC]
+
+RewriteRule ^remont-dverey$ page27189850.html [NC]
+RewriteRule ^remont-dverey/$ page27189850.html [NC]
+
+RewriteRule ^additions$ page27185805.html [NC]
+RewriteRule ^additions/$ page27185805.html [NC]
+
+RewriteRule ^contact$ page27186064.html [NC]
+RewriteRule ^contact/$ page27186064.html [NC]
+
+RewriteRule ^krugliy-stol$ page7779960.html [NC]
+RewriteRule ^krugliy-stol/$ page7779960.html [NC]
+
+RewriteRule ^kvadratniy-stol$ page7805474.html [NC]
+RewriteRule ^kvadratniy-stol/$ page7805474.html [NC]
+
+RewriteRule ^beliy-stol$ page7911085.html [NC]
+RewriteRule ^beliy-stol/$ page7911085.html [NC]
+
+RewriteRule ^cherniy-stol$ page7911138.html [NC]
+RewriteRule ^cherniy-stol/$ page7911138.html [NC]
+
+RewriteRule ^krugliy-beliy-stol$ page7926620.html [NC]
+RewriteRule ^krugliy-beliy-stol/$ page7926620.html [NC]
+
+RewriteRule ^priamougilniy-stol$ page7910772.html [NC]
+RewriteRule ^priamougilniy-stol/$ page7910772.html [NC]
+
+RewriteRule ^catalogue$ page7805726.html [NC]
+RewriteRule ^catalogue/$ page7805726.html [NC]
+
+RewriteRule ^about-us$ page7849663.html [NC]
+RewriteRule ^about-us/$ page7849663.html [NC]
+
+RewriteRule ^b2b$ page7850274.html [NC]
+RewriteRule ^b2b/$ page7850274.html [NC]
+
+RewriteRule ^header$ page7850519.html [NC]
+RewriteRule ^header/$ page7850519.html [NC]
+
+RewriteRule ^stol-patriciia$ page7855491.html [NC]
+RewriteRule ^stol-patriciia/$ page7855491.html [NC]
+
+RewriteRule ^beliy-stol-stefany$ page7856305.html [NC]
+RewriteRule ^beliy-stol-stefany/$ page7856305.html [NC]
+
+RewriteRule ^cherniy-stol-zjan$ page7856530.html [NC]
+RewriteRule ^cherniy-stol-zjan/$ page7856530.html [NC]
+
+RewriteRule ^krugliy-stol-valery$ page7856713.html [NC]
+RewriteRule ^krugliy-stol-valery/$ page7856713.html [NC]
+
+RewriteRule ^krugliy-stol-katrina$ page7857451.html [NC]
+RewriteRule ^krugliy-stol-katrina/$ page7857451.html [NC]
+
+RewriteRule ^krugliy-stol-mishel$ page7857597.html [NC]
+RewriteRule ^krugliy-stol-mishel/$ page7857597.html [NC]
+
+RewriteRule ^stol-kvadratniy-bridjit$ page7859155.html [NC]
+RewriteRule ^stol-kvadratniy-bridjit/$ page7859155.html [NC]
+
+RewriteRule ^stol-kvadratniy-monik$ page7859284.html [NC]
+RewriteRule ^stol-kvadratniy-monik/$ page7859284.html [NC]
+
+RewriteRule ^kvadratniy-stol-klod$ page7864742.html [NC]
+RewriteRule ^kvadratniy-stol-klod/$ page7864742.html [NC]
+
+RewriteRule ^beliy-stol-sofy$ page7864792.html [NC]
+RewriteRule ^beliy-stol-sofy/$ page7864792.html [NC]
+
+RewriteRule ^krugliy-stol-frank$ page7864884.html [NC]
+RewriteRule ^krugliy-stol-frank/$ page7864884.html [NC]
+
+RewriteRule ^krugliy-stol-patrik$ page7865009.html [NC]
+RewriteRule ^krugliy-stol-patrik/$ page7865009.html [NC]
+
+RewriteRule ^krugliy-stol-orlean$ page7865087.html [NC]
+RewriteRule ^krugliy-stol-orlean/$ page7865087.html [NC]
+
+RewriteRule ^krugliy-stol-zhaklin$ page7865139.html [NC]
+RewriteRule ^krugliy-stol-zhaklin/$ page7865139.html [NC]
+
+RewriteRule ^krugliy-stol-veronika$ page7879988.html [NC]
+RewriteRule ^krugliy-stol-veronika/$ page7879988.html [NC]
+
+RewriteRule ^krugliy-stol-kamila$ page7880154.html [NC]
+RewriteRule ^krugliy-stol-kamila/$ page7880154.html [NC]
+
+RewriteRule ^krugliy-stol-natan$ page7880185.html [NC]
+RewriteRule ^krugliy-stol-natan/$ page7880185.html [NC]
+
+RewriteRule ^krugliy-stol-sevilya$ page7906145.html [NC]
+RewriteRule ^krugliy-stol-sevilya/$ page7906145.html [NC]
+
+RewriteRule ^stol-kvadratniy-jerard$ page7907173.html [NC]
+RewriteRule ^stol-kvadratniy-jerard/$ page7907173.html [NC]
+
+RewriteRule ^beliy-stol-dominik$ page7910319.html [NC]
+RewriteRule ^beliy-stol-dominik/$ page7910319.html [NC]
+
+RewriteRule ^krugliy-stol-nikole$ page7910405.html [NC]
+RewriteRule ^krugliy-stol-nikole/$ page7910405.html [NC]
+
+RewriteRule ^stol-mary$ page7910626.html [NC]
+RewriteRule ^stol-mary/$ page7910626.html [NC]
+
+RewriteRule ^thankyoupage$ page7918715.html [NC]
+RewriteRule ^thankyoupage/$ page7918715.html [NC]
+
+RewriteRule ^cookies$ page7999000.html [NC]
+RewriteRule ^cookies/$ page7999000.html [NC]
+
+RewriteRule ^interview-bertran-10$ page8023017.html [NC]
+RewriteRule ^interview-bertran-10/$ page8023017.html [NC]
+
+RewriteRule ^thankyoupag-bertran-10$ page8036997.html [NC]
+RewriteRule ^thankyoupag-bertran-10/$ page8036997.html [NC]
+
+RewriteRule ^opytuvania-podarunok$ page8099323.html [NC]
+RewriteRule ^opytuvania-podarunok/$ page8099323.html [NC]
+
+RewriteRule ^thankyoupage-promo-mc-gift$ page8099503.html [NC]
+RewriteRule ^thankyoupage-promo-mc-gift/$ page8099503.html [NC]
+
+RewriteRule ^biliy-stil$ page8106840.html [NC]
+RewriteRule ^biliy-stil/$ page8106840.html [NC]
+
+RewriteRule ^not-found$ page8016273.html [NC]
+RewriteRule ^not-found/$ page8016273.html [NC]
+
+RewriteRule ^privat-policy$ page8117614.html [NC]
+RewriteRule ^privat-policy/$ page8117614.html [NC]
+
+RewriteRule ^interview-stefany-10$ page8170775.html [NC]
+RewriteRule ^interview-stefany-10/$ page8170775.html [NC]
+
+RewriteRule ^cart-bertran-m$ page8172260.html [NC]
+RewriteRule ^cart-bertran-m/$ page8172260.html [NC]
+
+RewriteRule ^thankyoupage-ua$ page8173081.html [NC]
+RewriteRule ^thankyoupage-ua/$ page8173081.html [NC]
+
+RewriteRule ^cart-patriciya-m$ page8173453.html [NC]
+RewriteRule ^cart-patriciya-m/$ page8173453.html [NC]
+
+RewriteRule ^interview-patriciya-gift$ page8173781.html [NC]
+RewriteRule ^interview-patriciya-gift/$ page8173781.html [NC]
+
+RewriteRule ^cart-stefany-m$ page8173987.html [NC]
+RewriteRule ^cart-stefany-m/$ page8173987.html [NC]
+
+RewriteRule ^cart-zjan-m$ page8175533.html [NC]
+RewriteRule ^cart-zjan-m/$ page8175533.html [NC]
+
+RewriteRule ^cart-mary-m$ page8175566.html [NC]
+RewriteRule ^cart-mary-m/$ page8175566.html [NC]
+
+RewriteRule ^cart-katrina-m$ page8175609.html [NC]
+RewriteRule ^cart-katrina-m/$ page8175609.html [NC]
+
+RewriteRule ^cart-nikole-m$ page8175655.html [NC]
+RewriteRule ^cart-nikole-m/$ page8175655.html [NC]
+
+RewriteRule ^cart-bridjit-m$ page8175687.html [NC]
+RewriteRule ^cart-bridjit-m/$ page8175687.html [NC]
+
+RewriteRule ^cart-klod-m$ page8175727.html [NC]
+RewriteRule ^cart-klod-m/$ page8175727.html [NC]
+
+RewriteRule ^cart-patrik-m$ page8175780.html [NC]
+RewriteRule ^cart-patrik-m/$ page8175780.html [NC]
+
+RewriteRule ^cart-orlean-m$ page8175829.html [NC]
+RewriteRule ^cart-orlean-m/$ page8175829.html [NC]
+
+RewriteRule ^cart-dominik-m$ page8175935.html [NC]
+RewriteRule ^cart-dominik-m/$ page8175935.html [NC]
+
+RewriteRule ^cart-veronika-m$ page8175965.html [NC]
+RewriteRule ^cart-veronika-m/$ page8175965.html [NC]
+
+RewriteRule ^cart-natan-m$ page8176019.html [NC]
+RewriteRule ^cart-natan-m/$ page8176019.html [NC]
+
+RewriteRule ^cart-valery-m$ page8176052.html [NC]
+RewriteRule ^cart-valery-m/$ page8176052.html [NC]
+
+RewriteRule ^cart-mishel-m$ page8176082.html [NC]
+RewriteRule ^cart-mishel-m/$ page8176082.html [NC]
+
+RewriteRule ^cart-jerard-m$ page8176137.html [NC]
+RewriteRule ^cart-jerard-m/$ page8176137.html [NC]
+
+RewriteRule ^cart-monik-m$ page8176163.html [NC]
+RewriteRule ^cart-monik-m/$ page8176163.html [NC]
+
+RewriteRule ^cart-sofy-m$ page8176188.html [NC]
+RewriteRule ^cart-sofy-m/$ page8176188.html [NC]
+
+RewriteRule ^cart-frank-m$ page8176211.html [NC]
+RewriteRule ^cart-frank-m/$ page8176211.html [NC]
+
+RewriteRule ^cart-jakline-m$ page8176243.html [NC]
+RewriteRule ^cart-jakline-m/$ page8176243.html [NC]
+
+RewriteRule ^cart-kamila-m$ page8176270.html [NC]
+RewriteRule ^cart-kamila-m/$ page8176270.html [NC]
+
+RewriteRule ^cart-sevilya-m$ page8176293.html [NC]
+RewriteRule ^cart-sevilya-m/$ page8176293.html [NC]
+
+RewriteRule ^interview-mary-10$ page8178121.html [NC]
+RewriteRule ^interview-mary-10/$ page8178121.html [NC]
+
+RewriteRule ^interview-katrina-10$ page8178169.html [NC]
+RewriteRule ^interview-katrina-10/$ page8178169.html [NC]
+
+RewriteRule ^interview-nikole-10$ page8178420.html [NC]
+RewriteRule ^interview-nikole-10/$ page8178420.html [NC]
+
+RewriteRule ^interview-bridjit-10$ page8178722.html [NC]
+RewriteRule ^interview-bridjit-10/$ page8178722.html [NC]
+
+RewriteRule ^interview-klod-10$ page8178831.html [NC]
+RewriteRule ^interview-klod-10/$ page8178831.html [NC]
+
+RewriteRule ^interview-patrik-10$ page8178888.html [NC]
+RewriteRule ^interview-patrik-10/$ page8178888.html [NC]
+
+RewriteRule ^interview-orlean-10$ page8178976.html [NC]
+RewriteRule ^interview-orlean-10/$ page8178976.html [NC]
+
+RewriteRule ^interview-dominik-10$ page8179068.html [NC]
+RewriteRule ^interview-dominik-10/$ page8179068.html [NC]
+
+RewriteRule ^interview-veronika-10$ page8179362.html [NC]
+RewriteRule ^interview-veronika-10/$ page8179362.html [NC]
+
+RewriteRule ^interview-natan-10$ page8179476.html [NC]
+RewriteRule ^interview-natan-10/$ page8179476.html [NC]
+
+RewriteRule ^interview-zjan-gift$ page8179620.html [NC]
+RewriteRule ^interview-zjan-gift/$ page8179620.html [NC]
+
+RewriteRule ^interview-valery-gift$ page8179686.html [NC]
+RewriteRule ^interview-valery-gift/$ page8179686.html [NC]
+
+RewriteRule ^interview-mishel-gift$ page8182462.html [NC]
+RewriteRule ^interview-mishel-gift/$ page8182462.html [NC]
+
+RewriteRule ^interview-jerard-gift$ page8182508.html [NC]
+RewriteRule ^interview-jerard-gift/$ page8182508.html [NC]
+
+RewriteRule ^interview-monik-gift$ page8182540.html [NC]
+RewriteRule ^interview-monik-gift/$ page8182540.html [NC]
+
+RewriteRule ^interview-sofy-gift$ page8182602.html [NC]
+RewriteRule ^interview-sofy-gift/$ page8182602.html [NC]
+
+RewriteRule ^interview-frank-gift$ page8182655.html [NC]
+RewriteRule ^interview-frank-gift/$ page8182655.html [NC]
+
+RewriteRule ^interview-jaklin-gift$ page8182718.html [NC]
+RewriteRule ^interview-jaklin-gift/$ page8182718.html [NC]
+
+RewriteRule ^interview-kamila-gift$ page8182919.html [NC]
+RewriteRule ^interview-kamila-gift/$ page8182919.html [NC]
+
+RewriteRule ^interview-sevilya-gift$ page8182965.html [NC]
+RewriteRule ^interview-sevilya-gift/$ page8182965.html [NC]
+
+RewriteRule ^pop-up-exit$ page8259726.html [NC]
+RewriteRule ^pop-up-exit/$ page8259726.html [NC]
+
+RewriteRule ^krugliy-cherniy-stol$ page8292465.html [NC]
+RewriteRule ^krugliy-cherniy-stol/$ page8292465.html [NC]
+
+RewriteRule ^compactniy-stol$ page8308944.html [NC]
+RewriteRule ^compactniy-stol/$ page8308944.html [NC]
+
+RewriteRule ^small-dinner-table$ page8444360.html [NC]
+RewriteRule ^small-dinner-table/$ page8444360.html [NC]
+
+RewriteRule ^white-dinner-table$ page8462540.html [NC]
+RewriteRule ^white-dinner-table/$ page8462540.html [NC]
+
+RewriteRule ^offerta$ page8550178.html [NC]
+RewriteRule ^offerta/$ page8550178.html [NC]
+
+RewriteRule ^contacts$ page8590995.html [NC]
+RewriteRule ^contacts/$ page8590995.html [NC]
+
+RewriteRule ^delivery-and-payment$ page8591004.html [NC]
+RewriteRule ^delivery-and-payment/$ page8591004.html [NC]
+
+RewriteRule ^stol-bertran$ page8593789.html [NC]
+RewriteRule ^stol-bertran/$ page8593789.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3465-6164-4662-a635-613165333232/favicon.ico [R=302,L]
+
