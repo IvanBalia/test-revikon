@@ -1,0 +1,369 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@IvanBalia
+IvanBalia
+/
+test-revikon
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+test-revikon/.htaccess
+@IvanBalia
+IvanBalia Rename htaccess to .htaccess
+Latest commit 9a66760 3 hours ago
+History
+1 contributor
+327 lines (218 sloc)  11.4 KB
+
+ErrorDocument 403 /page8016273.html
+ErrorDocument 404 /page8016273.html
+
+DirectoryIndex page27119917.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+/(.*) /https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+/(.*) /robots_%{HTTP_HOST}.txt [NC,L]
+/pro-nas /page27145204.html  
+/pro-nas/ /page27145204.html  
+
+/prices /page27183823.html  
+/prices/ /page27183823.html  
+
+/zamina-sklopaketiv /page27185428.html  
+/zamina-sklopaketiv/ /page27185428.html  
+
+/zamina-uschilnyuvacha /page27185746.html  
+/zamina-uschilnyuvacha/ /page27185746.html  
+
+/remont-vikon /page27185782.html  
+/remont-vikon/ /page27185782.html  
+
+/remont-dverey /page27189850.html  
+/remont-dverey/ /page27189850.html  
+
+/additions /page27185805.html  
+/additions/ /page27185805.html  
+
+/contact /page27186064.html  
+/contact/ /page27186064.html  
+
+/krugliy-stol /page7779960.html  
+/krugliy-stol/ /page7779960.html  
+
+/kvadratniy-stol /page7805474.html  
+/kvadratniy-stol/ /page7805474.html  
+
+/beliy-stol /page7911085.html  
+/beliy-stol/ /page7911085.html  
+
+/cherniy-stol /page7911138.html  
+/cherniy-stol/ /page7911138.html  
+
+/krugliy-beliy-stol /page7926620.html  
+/krugliy-beliy-stol/ /page7926620.html  
+
+/priamougilniy-stol /page7910772.html  
+/priamougilniy-stol/ /page7910772.html  
+
+/catalogue /page7805726.html  
+/catalogue/ /page7805726.html  
+
+/about-us /page7849663.html  
+/about-us/ /page7849663.html  
+
+/b2b /page7850274.html  
+/b2b/ /page7850274.html  
+
+/header /page7850519.html  
+/header/ /page7850519.html  
+
+/stol-patriciia /page7855491.html  
+/stol-patriciia/ /page7855491.html  
+
+/beliy-stol-stefany /page7856305.html  
+/beliy-stol-stefany/ /page7856305.html  
+
+/cherniy-stol-zjan /page7856530.html  
+/cherniy-stol-zjan/ /page7856530.html  
+
+/krugliy-stol-valery /page7856713.html  
+/krugliy-stol-valery/ /page7856713.html  
+
+/krugliy-stol-katrina /page7857451.html  
+/krugliy-stol-katrina/ /page7857451.html  
+
+/krugliy-stol-mishel /page7857597.html  
+/krugliy-stol-mishel/ /page7857597.html  
+
+/stol-kvadratniy-bridjit /page7859155.html  
+/stol-kvadratniy-bridjit/ /page7859155.html  
+
+/stol-kvadratniy-monik /page7859284.html  
+/stol-kvadratniy-monik/ /page7859284.html  
+
+/kvadratniy-stol-klod /page7864742.html  
+/kvadratniy-stol-klod/ /page7864742.html  
+
+/beliy-stol-sofy /page7864792.html  
+/beliy-stol-sofy/ /page7864792.html  
+
+/krugliy-stol-frank /page7864884.html  
+/krugliy-stol-frank/ /page7864884.html  
+
+/krugliy-stol-patrik /page7865009.html  
+/krugliy-stol-patrik/ /page7865009.html  
+
+/krugliy-stol-orlean /page7865087.html  
+/krugliy-stol-orlean/ /page7865087.html  
+
+/krugliy-stol-zhaklin /page7865139.html  
+/krugliy-stol-zhaklin/ /page7865139.html  
+
+/krugliy-stol-veronika /page7879988.html  
+/krugliy-stol-veronika/ /page7879988.html  
+
+/krugliy-stol-kamila /page7880154.html  
+/krugliy-stol-kamila/ /page7880154.html  
+
+/krugliy-stol-natan /page7880185.html  
+/krugliy-stol-natan/ /page7880185.html  
+
+/krugliy-stol-sevilya /page7906145.html  
+/krugliy-stol-sevilya/ /page7906145.html  
+
+/stol-kvadratniy-jerard /page7907173.html  
+/stol-kvadratniy-jerard/ /page7907173.html  
+
+/beliy-stol-dominik /page7910319.html  
+/beliy-stol-dominik/ /page7910319.html  
+
+/krugliy-stol-nikole /page7910405.html  
+/krugliy-stol-nikole/ /page7910405.html  
+
+/stol-mary /page7910626.html  
+/stol-mary/ /page7910626.html  
+
+/thankyoupage /page7918715.html  
+/thankyoupage/ /page7918715.html  
+
+/cookies /page7999000.html  
+/cookies/ /page7999000.html  
+
+/interview-bertran-10 /page8023017.html  
+/interview-bertran-10/ /page8023017.html  
+
+/thankyoupag-bertran-10 /page8036997.html  
+/thankyoupag-bertran-10/ /page8036997.html  
+
+/opytuvania-podarunok /page8099323.html  
+/opytuvania-podarunok/ /page8099323.html  
+
+/thankyoupage-promo-mc-gift /page8099503.html  
+/thankyoupage-promo-mc-gift/ /page8099503.html  
+
+/biliy-stil /page8106840.html  
+/biliy-stil/ /page8106840.html  
+
+/not-found /page8016273.html  
+/not-found/ /page8016273.html  
+
+/privat-policy /page8117614.html  
+/privat-policy/ /page8117614.html  
+
+/interview-stefany-10 /page8170775.html  
+/interview-stefany-10/ /page8170775.html  
+
+/cart-bertran-m /page8172260.html  
+/cart-bertran-m/ /page8172260.html  
+
+/thankyoupage-ua /page8173081.html  
+/thankyoupage-ua/ /page8173081.html  
+
+/cart-patriciya-m /page8173453.html  
+/cart-patriciya-m/ /page8173453.html  
+
+/interview-patriciya-gift /page8173781.html  
+/interview-patriciya-gift/ /page8173781.html  
+
+/cart-stefany-m /page8173987.html  
+/cart-stefany-m/ /page8173987.html  
+
+/cart-zjan-m /page8175533.html  
+/cart-zjan-m/ /page8175533.html  
+
+/cart-mary-m /page8175566.html  
+/cart-mary-m/ /page8175566.html  
+
+/cart-katrina-m /page8175609.html  
+/cart-katrina-m/ /page8175609.html  
+
+/cart-nikole-m /page8175655.html  
+/cart-nikole-m/ /page8175655.html  
+
+/cart-bridjit-m /page8175687.html  
+/cart-bridjit-m/ /page8175687.html  
+
+/cart-klod-m /page8175727.html  
+/cart-klod-m/ /page8175727.html  
+
+/cart-patrik-m /page8175780.html  
+/cart-patrik-m/ /page8175780.html  
+
+/cart-orlean-m /page8175829.html  
+/cart-orlean-m/ /page8175829.html  
+
+/cart-dominik-m /page8175935.html  
+/cart-dominik-m/ /page8175935.html  
+
+/cart-veronika-m /page8175965.html  
+/cart-veronika-m/ /page8175965.html  
+
+/cart-natan-m /page8176019.html  
+/cart-natan-m/ /page8176019.html  
+
+/cart-valery-m /page8176052.html  
+/cart-valery-m/ /page8176052.html  
+
+/cart-mishel-m /page8176082.html  
+/cart-mishel-m/ /page8176082.html  
+
+/cart-jerard-m /page8176137.html  
+/cart-jerard-m/ /page8176137.html  
+
+/cart-monik-m /page8176163.html  
+/cart-monik-m/ /page8176163.html  
+
+/cart-sofy-m /page8176188.html  
+/cart-sofy-m/ /page8176188.html  
+
+/cart-frank-m /page8176211.html  
+/cart-frank-m/ /page8176211.html  
+
+/cart-jakline-m /page8176243.html  
+/cart-jakline-m/ /page8176243.html  
+
+/cart-kamila-m /page8176270.html  
+/cart-kamila-m/ /page8176270.html  
+
+/cart-sevilya-m /page8176293.html  
+/cart-sevilya-m/ /page8176293.html  
+
+/interview-mary-10 /page8178121.html  
+/interview-mary-10/ /page8178121.html  
+
+/interview-katrina-10 /page8178169.html  
+/interview-katrina-10/ /page8178169.html  
+
+/interview-nikole-10 /page8178420.html  
+/interview-nikole-10/ /page8178420.html  
+
+/interview-bridjit-10 /page8178722.html  
+/interview-bridjit-10/ /page8178722.html  
+
+/interview-klod-10 /page8178831.html  
+/interview-klod-10/ /page8178831.html  
+
+/interview-patrik-10 /page8178888.html  
+/interview-patrik-10/ /page8178888.html  
+
+/interview-orlean-10 /page8178976.html  
+/interview-orlean-10/ /page8178976.html  
+
+/interview-dominik-10 /page8179068.html  
+/interview-dominik-10/ /page8179068.html  
+
+/interview-veronika-10 /page8179362.html  
+/interview-veronika-10/ /page8179362.html  
+
+/interview-natan-10 /page8179476.html  
+/interview-natan-10/ /page8179476.html  
+
+/interview-zjan-gift /page8179620.html  
+/interview-zjan-gift/ /page8179620.html  
+
+/interview-valery-gift /page8179686.html  
+/interview-valery-gift/ /page8179686.html  
+
+/interview-mishel-gift /page8182462.html  
+/interview-mishel-gift/ /page8182462.html  
+
+/interview-jerard-gift /page8182508.html  
+/interview-jerard-gift/ /page8182508.html  
+
+/interview-monik-gift /page8182540.html  
+/interview-monik-gift/ /page8182540.html  
+
+/interview-sofy-gift /page8182602.html  
+/interview-sofy-gift/ /page8182602.html  
+
+/interview-frank-gift /page8182655.html  
+/interview-frank-gift/ /page8182655.html  
+
+/interview-jaklin-gift /page8182718.html  
+/interview-jaklin-gift/ /page8182718.html  
+
+/interview-kamila-gift /page8182919.html  
+/interview-kamila-gift/ /page8182919.html  
+
+/interview-sevilya-gift /page8182965.html  
+/interview-sevilya-gift/ /page8182965.html  
+
+/pop-up-exit /page8259726.html  
+/pop-up-exit/ /page8259726.html  
+
+/krugliy-cherniy-stol /page8292465.html  
+/krugliy-cherniy-stol/ /page8292465.html  
+
+/compactniy-stol /page8308944.html  
+/compactniy-stol/ /page8308944.html  
+
+/small-dinner-table /page8444360.html  
+/small-dinner-table/ /page8444360.html  
+
+/white-dinner-table /page8462540.html  
+/white-dinner-table/ /page8462540.html  
+
+/offerta /page8550178.html  
+/offerta/ /page8550178.html  
+
+/contacts /page8590995.html  
+/contacts/ /page8590995.html  
+
+/delivery-and-payment /page8591004.html  
+/delivery-and-payment/ /page8591004.html  
+
+/stol-bertran /page8593789.html  
+/stol-bertran/ /page8593789.html  
+
+/favicon.ico /https://static.tildacdn.com/tild3465-6164-4662-a635-613165333232/favicon.ico [R=302,L]
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
